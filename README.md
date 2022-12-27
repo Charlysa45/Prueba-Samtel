@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Prueba Técnica "To Do List" by Carlos Rincón
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+=====================================================
 
-## Available Scripts
+Este proyecto es una prueba técnica para el puesto de Desarrollador Frontend para la empresa Samtel Consultores Colombia. 
 
-In the project directory, you can run:
+A continuación encontrará las instrucciones de operación de la aplicación.
 
-### `npm start`
+=====================================================
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La aplicación cuenta con dos páginas principales: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Login 
+- Home
 
-### `npm test`
+**Login**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+En la página de Login encontrará un formulario con dos campos a ingresar: *username* y *password*, validados de forma que tanto el usuario como la contraseña ingresadas sean correspondientes y se logre un ingreso exitoso. **(los usuarios y contraseñas disponibles se encuentran más abajo del documento).**
 
-### `npm run build`
+Para la validación del sistema de login, se utilizaron los usuarios almacenados en la API de libre uso *"DummyJSON"*, la cual cuenta con un gran número de fake-accounts con sus respectivas tokens de sesión, muy útiles para el desarrollo de la aplicación.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Sitio web de DummyJSON:* https://dummyjson.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**cuentas utilizables para inicio de sesión en la aplicación:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**username:** atuny0  
+**password:** 9uQFF1Lh
 
-### `npm run eject`
+========
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**username:** hbingley1  
+**password:** CQutx25i8r
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+========
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**username:** rshawe2  
+**password:** OWsTbMUgFc
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+========
 
-## Learn More
+**username:** yraigatt3  
+**password:** sRQxjPfdS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+========
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**username:** kmeus4  
+**password:** aUTdmmmbH
 
-### Code Splitting
+========
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*(Hay más usuarios disponibles en la documentación web de DummyJSON)*
 
-### Analyzing the Bundle Size
+**Home**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+En el home podrá visualizar una tarjeta de usuario dinámica, la cual se servirá de los datos existentes del usuario logeado en la API pública de *DummyJSON* como su nombre y su apellido.
 
-### Making a Progressive Web App
+Al hacer click en la tarjeta, se desplegará el botón correspondiente para realizar el logout o la salida del usuario.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+En el centro podrá visualizar la maqueta de una herramienta de enlistado de tareas. Aparecerá un campo para añadir una tarea y tres "tasks" con una checkbox por defecto renderizadas dinámicamente sirviéndose de un archivo JSON alojado localmente en la carpeta del proyecto.
 
-### Advanced Configuration
+==========================================
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Librerías**
 
-### Deployment
+Se utilizaron las siguientes librerías para el desarrollo de la aplicacion:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+-**react-router-dom:** paginacíón dinámica de la aplicación.
 
-### `npm run build` fails to minify
+-**axios:** simplificación de peticiones a la API utilizada.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+'-**react-icons:** librería de iconos para react.
+
+-**framer-motion:** animaciones dinámicas.
+
+==============================================
+
+Proyecto realizado por Carlos Rincón S. - 2022, Colombia.

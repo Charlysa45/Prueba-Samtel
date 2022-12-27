@@ -1,0 +1,70 @@
+main{
+    margin-top: 20px;
+}
+
+#todo-banner{
+    text-align: center;
+    color: #fff;
+}
+
+#todo-banner-title{
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#todo-banner-subtitle{
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+#todo-list{
+    display: flex;
+    justify-content: center;
+}
+
+#todo-list-content{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#todo-list-content-new{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+
+#todo-list-content-new p{
+    margin: 0px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.todo-list-content-tasks-task{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #818181;
+}
+
+.todo-list-content-tasks-task-check{
+    margin-right: 10px;
+}
+.todo-list-content-tasks-task-name{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0px;
+} 
+
+.todo-list-content-tasks-task-description{
+    margin-top: 0px;
+    margin-bottom: 7px;
+    font-size: 13px;
+}

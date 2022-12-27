@@ -1,0 +1,77 @@
+header{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+#header-card{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+#header-card-avatar-img{
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+#header-card-content{
+    margin-left: 10px;
+}
+
+#header-card-content p{
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#header-card-content-fullname{
+    display: flex;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#header-card-logout{
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #d60e00;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#header-card-logout:hover{
+    background-color: #7a0a01;
+}
+
+#header-card-logout p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 1450px){
+    header{
+        justify-content: center;
+    }
+}
+
